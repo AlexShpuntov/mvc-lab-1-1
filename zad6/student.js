@@ -9,7 +9,7 @@ function getStudentFullName(id) {
       return "Kacper Nowak";
     case 2:
       return "Maja Kowalska";
-    default: "Michal Wisniewski"
+    default: return "Michal Wisniewski";
   }
 }
 
@@ -21,7 +21,7 @@ function getStudentId(id) {
       return "111222";
     case 2:
       return "222333";
-    default: "333444"
+    default: return "333444";
   }
 }
 
