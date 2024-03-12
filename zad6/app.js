@@ -1,14 +1,11 @@
 const http = require("http");
 const student = require("./student");
 
-const id = 0;
-
-const fullName = student.getStudentFullName(id);
-const studentID = student.getStudentId(id);
-
 const PORT = 3000;
 
 function requestListener(request, response) {
+  const id = 0;
+  
   const fullName = student.getStudentFullName();
   const studentID = student.getStudentId();
 
